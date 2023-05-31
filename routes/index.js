@@ -7,6 +7,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 
 });
+/* GET home page. */
+router.get('/home', function(req, res, next) {
+  res.render('index', { title: 'Home' });
+
+});
 /* GET aboutme page. */
 router.get('/about', function(req, res, next) {
   res.render('index', { title: 'About Me' });
@@ -19,14 +24,15 @@ router.get('/projects', function(req, res, next) {
 });
 /* GET services page. */
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
-
+ res.render('index', { title: 'Services' });
+ 
 });
 
 
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact Me' });
+  res.render('index', { title: 'Contact Me'});
+  //res.render('index', { contact: 'Contact Me' });
 
 });
 
