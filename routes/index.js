@@ -14,25 +14,25 @@ router.get('/home', function(req, res, next) {
 });
 /* GET aboutme page. */
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
+  res.render('about', { title: 'About Me' });
 
 });
 /* GET products page. */
 router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
+  res.render('projects', { title: 'Projects' });
 
 });
 /* GET services page. */
 router.get('/services', function(req, res, next) {
- res.render('index', { title: 'Services' });
+ res.render('services', { title: 'Services' });
  
 });
 
 
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact Me'});
-  //res.render('index', { contact: 'Contact Me' });
+  res.render('contact', { title: 'Contact Me'});
+ 
 
 });
 
