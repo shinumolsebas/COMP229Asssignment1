@@ -1,9 +1,13 @@
 {
-  "name": "week4",
-  "version": "0.0.0",
+  "name": "assignment1",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^18.13.0",
+    "npm": "^9.6.6"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
@@ -16,5 +20,18 @@
     "jquery": "^3.7.0",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "Assignment1",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinumolsebas/COMP229Asssignment1.git"
+  },
+  "author": "Shinumol Sebastian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinumolsebas/COMP229Asssignment1/issues"
+  },
+  "homepage": "https://github.com/shinumolsebas/COMP229Asssignment1#readme"
 }
